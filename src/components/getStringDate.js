@@ -1,0 +1,1 @@
+export const getStringDate = date => new Date(date).toISOString().slice(0, 10);
